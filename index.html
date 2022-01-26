@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Badge</h1>
+
+    <div class="badge-container">
+        <div class="parent">
+            <i class="fas fa-home"></i>
+            <div class="child badge-styling">99+</div>
+        </div>
+
+        <div>
+            <div class=parent>
+                <i class="fas fa-bell"></i>
+                <div class="child">9+</div>
+            </div>
+        </div>
+
+        <div class="parent">
+            <button class=action-hide>Action</button>
+            <div class="child badge-5">5</div>
+        </div>
+
+
+        <div class="parent">
+            <button class="action-hide btn">Hide</button>
+            <div class="child hide-badge">8</div>
+        </div>
+
+
+        <div class="parent text">
+            text with a large badge.
+            <div class="child badge-on-text">0</div>
+        </div>
+
+
+    </div>
+</body>
+<script>
+    var hideBtn = document.querySelector(".btn");
+    hideBtn.addEventListener("click", hideBadge);
+
+    function hideBadge() {
+        document.querySelector(".hide-badge").classList.toggle("hide");
+    }
+</script>
+
+</html>

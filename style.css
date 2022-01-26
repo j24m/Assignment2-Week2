@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+:root {
+    font-family: monospace;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+/* Styling for badge */
+.badge-container {
+    padding: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CCD6DD;
+    width: 90rem;
+    height:20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Badge styling */
+/*Styling for home-icon and 99+badge*/
+.parent {
+    /* border: 1px solid black; */
+    position: relative;
+    padding: 1.6rem;
+    font-size: 3rem;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0.2rem;
+    left: 3rem;
+    padding: 0.3rem;
+    background-color: #3F729B;
+    border-radius: 50%;
+    color: white;
+    width: 2.1rem;
+    height: 2.1rem;
+    font-size: 1.5rem;
+}
+
+
+/*Styling for 1.action div and its badge 2.Button and its badge*/
+.action-hide {
+    width: 10rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.badge-5 {
+    left: 0.5rem;
+}
+
+.hide-badge {
+    left: 10rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* Styling for text on badge */
+.text {
+    font-size: large;
+}
+
+.badge-on-text {
+    top:-2rem; 
+    left: 25.5rem;
+    padding: 1.6rem;
+    font-size: larger;
+}
